@@ -10,7 +10,7 @@ fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Cca
         container.innerHTML += `
             <div class="coin ${change < 0 ? 'falling' : 'rising'}">
                 <div class="coin-logo">
-                    <img src="images/${coin}.png">
+                    <img src="${coin}.png">
                 </div>
                 <div class="coin-name">
                     <h3>${coin}</h3>
